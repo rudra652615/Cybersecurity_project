@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="css/sidebar.css">
 <link rel="stylesheet" href="css/navbar.css">
 <link rel="stylesheet" href="css/cards.css">
+<link rel="stylesheet" href="css/dashboard.css">
 <link rel="stylesheet" href="css/investigation.css">
 <link rel="stylesheet" href="css/style.css">
 </head>
@@ -70,9 +71,117 @@ Investigations
 
 </div>
 
-<div class="card-value" id="investigationCount">
+<div class="dashboard-grid">
 
-0
+    <div class="panel">
+
+        <div class="panel-title">
+
+            🔎 New Investigation
+
+        </div>
+
+        <div class="search-grid">
+
+            <select>
+
+                <option>Username</option>
+                <option>Email</option>
+                <option>Domain</option>
+                <option>IP Address</option>
+                <option>Website</option>
+
+            </select>
+
+            <input
+            type="text"
+            placeholder="Enter target...">
+
+            <button>
+
+                Investigate
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="panel">
+
+        <div class="panel-title">
+
+            ⚠ Threat Level
+
+        </div>
+
+        <div class="threat-meter">
+
+            LOW
+
+        </div>
+
+    </div>
+
+    <div class="panel">
+
+        <div class="panel-title">
+
+            📡 Live Activity
+
+        </div>
+
+        <div class="activity-item">
+
+            <span>Username Scan</span>
+
+            <span class="activity-time">2m ago</span>
+
+        </div>
+
+        <div class="activity-item">
+
+            <span>Email Analysis</span>
+
+            <span class="activity-time">5m ago</span>
+
+        </div>
+
+        <div class="activity-item">
+
+            <span>Domain Lookup</span>
+
+            <span class="activity-time">10m ago</span>
+
+        </div>
+
+    </div>
+
+    <div class="panel">
+
+        <div class="panel-title">
+
+            🤖 AI Intelligence
+
+        </div>
+
+        <div class="ai-box">
+
+            <div class="ai-status">
+
+                ONLINE
+
+            </div>
+
+            <p>
+
+                Ready to analyze investigation results.
+
+            </p>
+
+        </div>
+
+    </div>
 
 </div>
 
