@@ -64,3 +64,22 @@
 50%{opacity:.3;}
 100%{opacity:1;}
 }
+.search-grid{
+
+    display:grid;
+
+    grid-template-columns:180px 1fr 180px;
+
+    gap:15px;
+
+}
+
+@media(max-width:900px){
+
+.search-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+}
