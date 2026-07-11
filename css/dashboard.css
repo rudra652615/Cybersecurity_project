@@ -10,6 +10,16 @@
 
 }
 
+@media(max-width:1200px){
+
+.dashboard-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
 .panel{
 
     background:rgba(17,24,39,.75);
